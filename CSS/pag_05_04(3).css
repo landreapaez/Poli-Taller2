@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    /*espacio entre el contenido y el borde*/
+    background: #30323d;
+    width: 100%;
+    max-width: 1000px;
+    /*para visualizarlo completo en cualquier navegador o dispositivo móvil*/
+}
+
+.menu li {
+    display: inline-block;
+    /*cambia el texto de verse en forma vertical a ver la lista con forma horizontal*/
+    text-align: center;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+.menu li a:hover {
+    background: #ef8354;
+}
