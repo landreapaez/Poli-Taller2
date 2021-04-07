@@ -1,0 +1,15 @@
+.btn {
+    background-color: aqua;
+}
+
+.select {
+    color: hotpink;
+}
+
+.form-select {
+    color: indigo;
+}
+
+.btn:hover {
+    opacity: .3;
+}
