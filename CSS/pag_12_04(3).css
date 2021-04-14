@@ -1,0 +1,44 @@
+div {
+    background: #226fc1;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.box1 {
+    border: 7px solid #000000;
+    border-radius: 20px;
+}
+
+.box2 {
+    border: 7px dotted #000000;
+    border-radius: 0px 10px 30px 50px;
+}
+
+.box3 {
+    border: 7px dashed #000000;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.box4 {
+    border: 7px double #000000;
+    border-radius: 100px;
+    /*only boxes*/
+}
+
+.box5 {
+    border: 15px groove #21b4ad;
+}
+
+.box6 {
+    border: 15px ridge #22a738;
+}
+
+.box7 {
+    border: 15px inset #7c0c0c;
+}
+
+.box8 {
+    border: 15px outset #383d86;
+}

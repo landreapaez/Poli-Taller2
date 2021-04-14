@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: #0e6ba8;
+    margin: 20px;
+}
+
+.positioning {
+    background: #6695e8;
+    position: relative;
+    /*move the box from the original place*/
+    top: 50px;
+    left: 200px;
+}
+
+.positioning-absolute {
+    background: #381053;
+    position: absolute;
+    /*move the box from the original place and ignores parent position*/
+    left: 220px;
+}
+
+.positioning-fixed {
+    background: #7e2d53;
+    position: fixed;
+    /*permanent position, for permanent menus*/
+    bottom: 0%;
+    right: 0%;
+}
+
+.fatherBox {
+    margin: 20px;
+    background: #2e294e;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    /*move the box from the original place*/
+}
+
+.positioning-inside {
+    background: #adee59;
+    position: absolute;
+    /*move the box from the original place and ignores parent position*/
+    bottom: 0%;
+    right: 0%;
+}

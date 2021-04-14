@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Vibes";
+    src: url('../fonts/Vibes-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Vibes-Bold";
+    src: url('../fonts/Vibes-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Vibes-Light";
+    src: url('../fonts/Vibes-Light.ttf');
+}
+
+@font-face {
+    font-family: "Vibes-Thin";
+    src: url('../fonts/Vibes-Thin.ttf');
+}
+
+body {
+    font-family: "Vibes-Bold";
+    font-family: 'Indie Flower', sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+p {
+    font-weight: 700;
+}

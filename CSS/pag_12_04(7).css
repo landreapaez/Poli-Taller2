@@ -1,0 +1,23 @@
+a {
+    font-size: 20px;
+    text-decoration: none; /*without line*/
+}
+
+a:hover { /*background color*/
+    background: #04B404;
+    color: #fff;
+}
+
+a:link { /*no visited*/
+    text-decoration: none;
+    color: red;
+}
+
+a:visited { /*visited*/
+    color: gray;
+}
+
+a:active { /*place a line*/
+    text-decoration: underline;
+    color:yellowgreen;
+}

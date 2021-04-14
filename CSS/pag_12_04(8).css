@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ul, ol {
+    list-style: none; /*Delete bullets and numbering
+    padding: 0; /*Delete spaces
+} */
+
+ul {
+    /*list-style: disc; /*for defect
+    list-style: circle; 
+    list-style: square;*/
+    list-style-image: url('../images/shield.png');
+}
+
+ol {
+    /*list-style: decimal; /*for defect
+    list-style: /*decimal-leading-zero;
+    list-style: lower-roman; /*numbers roman
+    list-style: upper-roman; /*upper numbers roman
+    list-style: lower-latin; /*lower letter*/
+    list-style: upper-latin;
+}
+
+/*Menu*/
+.menu {
+    background: #4357ad;
+    width: 200px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.menu li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background: #4888d6;
+}

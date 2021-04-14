@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    /*delete the margin*/
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+}
+
+.box {
+    background: #0353a4;
+    width: 200px;
+    margin: 20px 10px 5px 0px;
+    /*margen del "box"
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 0px;*/
+    padding: 20px;
+    /*margen interna*/
+    border: 2px solid #000000;
+}
+
+.box p {
+    background: #eee5e9;
+}

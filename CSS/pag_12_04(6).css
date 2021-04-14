@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000500;
+}
+
+.gallery {
+    width: 100%;
+}
+
+.gallery img {
+    vertical-align: top; /*delete spaces between lines*/
+    width: 200px;
+    margin: 20px;
+    padding: 5px; /*margen between content and body*/
+    opacity: 0.5; /*opaque between 0 and 1*/
+    border: 1px solid #484848;
+}
+
+.gallery img:hover {
+    border: 1px solid #fff;
+    opacity: 1;
+}
