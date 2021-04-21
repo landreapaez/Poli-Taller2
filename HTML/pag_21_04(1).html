@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Variable</title>
+</head>
+
+<body>
+    <h2 style="text-align: center; color: blue; border-style: double;">Conceptos básicos de JavaScript
+    </h2>
+    Dentro de las etiquetas se escribe todo el código de JavaScript.
+    <script>
+        /*document.write(), imprime en el navegador.*/
+        document.write("<p style='color: red;'>Imprimir lo almacenado en una variable utilizando (alert) y (document).</p>");
+
+        document.write("<p>Luz Andrea Páez Martínez</p>");
+
+        /*console.log(), imprime en la consola del navegador, esta se abre con F12.*/
+        console.log("Hello console");
+
+        //var, para instanciar variables
+        var nombre = "Luz Andrea";
+        var edad = 44;
+        //edad = "años";
+        //alert, muestra una ventana emergente
+        alert(nombre + " - " + edad);
+        //let, para crear variables locales
+        let apellido = "Páez";
+        alert(apellido)
+
+
+
+
+        document.write("<p>La persona " + nombre + " " + apellido + " tiene una edad de " + edad);
+
+        document.write("<p> <strong> Lo almacenado en la variable(nombre) es: </strong></p>" + nombre);
+        document.write(
+            "<hr><p style = 'color: red;'> Imprimir el resultado de las operaciones básicas(suma, resta, multiplicación y división) de dos números almacenados en variables utilizando(document). </p>"
+        );
+        let numero1 = 20,
+            numero2 = 13;
+        document.write(
+            "<p> <strong> La suma de los números </strong> " +
+            numero1 +
+            "<strong> y </strong> " +
+            numero2 +
+            " <strong> es: </strong>" +
+            (numero1 + numero2)
+        );
+        document.write(
+            "<p> <strong> La resta de los números </strong > " +
+            numero1 +
+            " <strong> y </strong>" +
+            numero2 +
+            "<strong> es: </strong > " +
+            (numero1 - numero2)
+        );
+        document.write(
+            " <p> <strong> La multiplicación de los números </strong>" +
+            numero1 +
+            "<strong> y </strong> " +
+            numero2 +
+            " <strong> es: </strong>" +
+            numero1 * numero2
+        );
+        document.write(
+            "<p> <strong> La división de los números </strong > " +
+            numero1 +
+            " <strong> y </strong>" +
+            numero2 +
+            "<strong> es: </strong> " +
+            numero1 / numero2
+        );
+        document.write(
+            " <hr> <p style = 'color: red;'> Imprimir lo almacenado en las variables(nombre) y(apellido). </p>"
+        );
+
+        document.write(
+            "<p> <strong> La persona se llama: </strong>" + nombre + " " + apellido
+        );
+    </script>
+    <script>
+        //David Perez Valenzuela
+        function myFunction() {
+            if (true) {
+                var myVar = "JavaScript"; //variable que puede ser por fuera del bloque
+                let myLet = "React"; //variable local en el bloque
+                const myConst = "Angular" //constante que no se le puede cambiar el valor asignado
+            }
+            console.log(myVar)
+        }
+        myFunction()
+    </script>
+</body>
+
+</html>

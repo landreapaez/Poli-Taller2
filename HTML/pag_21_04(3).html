@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Function</title>
+</head>
+
+<body>
+    <script>
+        function add(num1, num2) {
+            return num1 + num2;
+        }
+        document.write(add(10, 5));
+
+        //Función anónima
+        const sum = function(num1, num2) {
+            return num1 + num2;
+        };
+
+        document.write("<p>", sum(3, 7));
+
+        //Función autoinvocada
+        (function() {
+            document.write("<p>", add(10, 5));
+            //alert("Hello world");
+        })();
+    </script>
+</body>
+
+</html>
